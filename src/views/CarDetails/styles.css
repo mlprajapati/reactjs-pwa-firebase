@@ -1,0 +1,206 @@
+.nav {
+    padding: 0;
+}
+
+.nav-tabs {
+    border-bottom: unset !important;
+}
+
+section {
+    margin: 20px;
+}
+
+.car-image {
+    padding-top: 16px;
+    text-align: center;
+}
+
+.rectangle-copy-8 {
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    height: 42px;
+    line-height: 42px;
+    box-shadow: 0 2px 54px 0 rgba(0, 0, 0, 0.31);
+    border: 0.5px solid #b7b7b7;
+}
+
+.tab-style {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #d6d5d6;
+    cursor: pointer;
+}
+
+.rectangle-copy-8-active {
+    background-color: #f2c419;
+    color: #4b4d5f;
+    font-weight: 500;
+}
+
+.insurance-policy-heading {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.insurance-policy-sub-title {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #d7d5d6;
+}
+
+.ul-style {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.li-style-without--border {
+    padding-bottom: 20px;
+}
+
+.li-style-padding-0 {
+    padding-bottom: 0px;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.Mask {
+    box-shadow: 0 2px 34px 0 rgba(0, 0, 0, 0.2);
+    background-color: #333546 !important;
+}
+
+.policy-title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.policy-body {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding: 12px 17px !important;
+}
+
+.policy-detail {
+    min-height: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+.policy-detail-full--height {
+    height: unset;
+}
+
+.read-more--link {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #f2c419;
+}
+
+.btn-apply {
+    width: 90px;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    /* top: 0; */
+    bottom: 20px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    color: #f2c419;
+    border: 1px solid #f2c419;
+    border-radius: 4px;
+    background: transparent;
+}
+
+.coverage---accident {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.coverage---accident .text-style-1 {
+    font-weight: 500;
+}
+
+.details-to-be-shared {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding: 10px 16px;
+}
+
+.policy-discount-ul-style {
+    list-style: none;
+    padding: 0;
+    padding-bottom: 20px;
+}
+
+.policy-ul-style {
+    list-style: none;
+    padding: 0px 16px;
+}
+
+.policy-control-container {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.btn-policy-cancel {
+    left: calc(100% - 190px) !important;
+}
+
+.btn-policy-apply {
+    left: calc(100% - 180px) !important;
+}

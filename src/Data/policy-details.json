@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "policyDetails": {
+        "policyId": "2",
+        "policyName": "Policy XYZ",
+        "policyDesc": "XYZ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "policySensors": [
+        {
+          "policySensorId": "6",
+          "sensorName": "video",
+          "policyId": "2"
+        },
+        {
+          "policySensorId": "5",
+          "sensorName": "speed",
+          "policyId": "2"
+        },
+        {
+          "policySensorId": "4",
+          "sensorName": "map",
+          "policyId": "2"
+        }
+      ]
+    },
+    {
+      "policyDetails": {
+        "policyId": "1",
+        "policyName": "Policy ABC",
+        "policyDesc": "ABC quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      "policySensors": [
+        {
+          "policySensorId": "2",
+          "sensorName": "speed",
+          "policyId": "1"
+        },
+        {
+          "policySensorId": "1",
+          "sensorName": "map",
+          "policyId": "1"
+        },
+        {
+          "policySensorId": "3",
+          "sensorName": "video",
+          "policyId": "1"
+        }
+      ]
+    }
+  ]
+}

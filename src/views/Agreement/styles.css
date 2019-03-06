@@ -1,0 +1,124 @@
+.insurance-panel {
+    margin: 10px 20px;
+}
+
+.insurance-policy-instraction {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.insurance-policy-instraction .text-bold {
+    font-weight: 500;
+}
+
+.insurance-policy-details {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.ul-style {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 0.5rem !important;
+}
+
+.li-style {
+    padding-bottom: 0px;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #ffffff;
+    border-bottom: solid 1px #45485c;
+}
+
+.li-style label input[type="checkbox"] {
+    margin-right: 10px;
+    height: 16px;
+}
+
+.li-style label {
+    vertical-align: text-top;
+    margin-bottom: 0px;
+}
+
+.li-style label span {
+    vertical-align: text-bottom;
+}
+
+.terms-container {
+    font-family: Roboto;
+    font-size: 8px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.13;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-left: 10px;
+    margin-bottom: 0rem;
+}
+
+.terms-container label input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.terms-container label span {
+    vertical-align: text-bottom;
+}
+
+.btn-policy-cancel {
+    width: 90px;
+    display: inline-block;
+    position: relative;
+    right: 10px;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    color: #f2c419;
+    border: 1px solid #f2c419;
+    border-radius: 4px;
+    background: transparent;
+    left: calc(100% - 210px);
+}
+
+.btn-policy-apply {
+    width: 90px;
+    display: inline-block;
+    position: relative;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.15;
+    letter-spacing: normal;
+    color: #4b4d5f;
+    border: 1px solid #f2c419;
+    border-radius: 4px;
+    background: #f2c419;
+    left: calc(100% - 200px);
+}
+
+.agreement-control-container {
+    padding: 0 16px;
+}

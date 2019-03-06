@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "carid": "wwwwww",
+      "vin": 121212,
+      "model": "BMW X61",
+      "oem": "abc",
+      "owner": "madan@hcl.com",
+      "cam1": "vin121212_cam1",
+      "cam2": "vin121212_cam2",
+      "cam3": "car1cam3",
+      "cam4": "car1cam4",
+      "cam5": "car1cam5",
+      "cam6": "car1cam6",
+      "deviceName": "abc",
+      "firmwareVersionID": "abc",
+      "imgUrl": "abc",
+      "notificationToken": "cx2_M9ZVVn0:APA91bFLivh-zZDMRMZpfLeZLI5f6ag9yevSh96NVzyU59BO6xEEFNiOUsS1aK3tefsNzb5cOxdshdZ9KrYg8DIFWWaDQ7VS4Qy39RO98EAaRGhZQlRpUjsmhlkAF1tLBYABn2a94wXY",
+      "carTrim": "320d Edition Sport Shadow",
+      "carStatus": "ACTIVE",
+      "policyId": "2"
+    },
+    {
+      "carid": "wwwwww11",
+      "vin": 123456,
+      "model": "Tesla S 100D1",
+      "oem": "abc",
+      "owner": "madan@hcl.com",
+      "cam1": "vin123456_cam1",
+      "cam2": "vin123456_cam2",
+      "cam3": "car1cam3",
+      "cam4": "car1cam4",
+      "cam5": "car1cam5",
+      "cam6": "car1cam6",
+      "deviceName": "abc",
+      "firmwareVersionID": "abc",
+      "imgUrl": "abc",
+      "notificationToken": "cx2_M9ZVVn0:APA91bFLivh-zZDMRMZpfLeZLI5f6ag9yevSh96NVzyU59BO6xEEFNiOUsS1aK3tefsNzb5cOxdshdZ9KrYg8DIFWWaDQ7VS4Qy39RO98EAaRGhZQlRpUjsmhlkAF1tLBYABn2a94wXY",
+      "carTrim": "320d Edition Sport Shadow",
+      "carStatus": "ACTIVE",
+      "policyId": "1"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "success": {
+    "status": "Success",
+    "message": "Resource Retrieved Successfully",
+    "data": "Login Successful"
+  },
+  "failure": {
+    "status": "Failure",
+    "message": "RESOURCE_ALREADY_EXISTS",
+    "data": "Invalid Username or Password"
+  }
+}
