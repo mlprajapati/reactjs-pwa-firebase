@@ -1,5 +1,5 @@
 {
-  "name": "trillium-ip-app",
+  "name": "pnp-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
