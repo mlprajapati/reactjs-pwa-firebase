@@ -72,7 +72,7 @@ firebase deploy --only hosting
 ```
 ## Live URL for DEMO
 
-[https://push-notification-poc-c88e7.firebaseapp.com] (https://push-notification-poc-c88e7.firebaseapp.com)
+[https://push-notification-poc-c88e7.firebaseapp.com](https://push-notification-poc-c88e7.firebaseapp.com)
 
 ## Get User Based Notification Token
     Push notification Token will generate after successful login. To get the generated token open the console and find the string like ''. Or we can get this from the localStorage key "notification-token" of the application url. 
