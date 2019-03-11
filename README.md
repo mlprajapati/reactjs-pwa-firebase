@@ -70,9 +70,6 @@ firebase deploy --only hosting
 #This will finally push the build source from build folder to the firebase hosting location and you will be provied with the hosted location to explore the application online.
 
 ```
-## Live URL for DEMO
-
-[https://push-notification-poc-c88e7.firebaseapp.com](https://push-notification-poc-c88e7.firebaseapp.com)
 
 ## Get User Based Notification Token
     Push notification Token will generate after successful login. To get the generated token open the console and find the string like ''. Or we can get this from the localStorage key "notification-token" of the application url. 
@@ -99,6 +96,7 @@ firebase deploy --only hosting
             "to": [YOUR USER TOKEN]
             }
 ```
+## Live URL for DEMO
 
-
+[https://push-notification-poc-c88e7.firebaseapp.com](https://push-notification-poc-c88e7.firebaseapp.com)
 
