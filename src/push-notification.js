@@ -3,7 +3,7 @@ import axios from "axios";
 
 export const initializeFirebase = () => {
   const config = {
-    messagingSenderId: "75066325138"
+    messagingSenderId: "1029048879297"
   };
   firebase.initializeApp(config);
   // navigator.serviceWorker.register("/service-worker.js").then(registration => {

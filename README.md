@@ -1,4 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The main objective is that many sites send notifications to their users through the browser for various events occurring within the web app. We can easily do the job using Cloud Messaging, which allows us to send messages to any devices using HTTP requests with Firebase.
+Here are the basic steps required, for pushing the notifications in Webapp using Firebase.
+Firstly we have to create a PWA application to experience push notification feature.
+This POC is a React based PWA Application.
+
+## Firebase Account Creation
+
+Use for firebase account creation and project setup [https://console.firebase.google.com](https://console.firebase.google.com).
+
+## Use Firebase Message sender ID
+To generate the push notification Token use your firebase message sender id with the application code.
+``` bash
+
+    # Add the message sender id within following files:
+    public/firebase-messaging-sw.js
+    # and
+    src/push-notification.js
+
+```
 
 ## Available Scripts
 
@@ -27,15 +45,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
@@ -43,26 +52,53 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Deployment with your Firebase Account hosting
+``` bash
 
-### Analyzing the Bundle Size
+npm install firebase-tools
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+firebase login
 
-### Making a Progressive Web App
+firebase init
+#Follow the steps provied by the firebase cli.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+firebase use --add
+#This will create a new project or ask to choose from existing project.
 
-### Advanced Configuration
+firebase deploy --only hosting
+#This will finally push the build source from build folder to the firebase hosting location and you will be provied with the hosted location to explore the application online.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+```
+## Live URL for DEMO
 
-### Deployment
+[https://push-notification-poc-c88e7.firebaseapp.com] (https://push-notification-poc-c88e7.firebaseapp.com)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Get User Based Notification Token
+    Push notification Token will generate after successful login. To get the generated token open the console and find the string like ''. Or we can get this from the localStorage key "notification-token" of the application url. 
 
-### `npm run build` fails to minify
+## Validate Push Notification Using Postman
+``` bash
+    To validate the push notification use the google FCM service followed by below steps. 
+    * Open Postman
+    * With POST Url add the FCM service URL "https://fcm.google.apis.com/fcm/send"
+    * Add Headers Properties
+        - Authorization: key=[your firebase Server key]  (you can get this from the firebase project settings)
+        - Content-Type: application/json
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+    * Add Body in JSON format
+            {
+            "notification": {
+                "title": "Notification Title",
+                "body": "Notification Body",
+                "click_action": "http://localhost:3000",
+                "icon": [Notification icon url],
+                "show_in_foreground": true
+            },
+            "content_available": true,
+            "to": [YOUR USER TOKEN]
+            }
+```
+
+
+

@@ -34,8 +34,8 @@ let passwordIcon = {
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat'
 };
-const _userName = 'madan@hcl.com';
-const _password = 'india@2018';
+const _userName = 'demo_user';
+const _password = 'demo1234';
 class Login extends Component {
   state = {
     username: '',
