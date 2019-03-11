@@ -100,3 +100,6 @@ firebase deploy --only hosting
 
 [https://push-notification-poc-c88e7.firebaseapp.com](https://push-notification-poc-c88e7.firebaseapp.com)
 
+Test with below login credential.
+Username: demo_user
+Password: demo1234
